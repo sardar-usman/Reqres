@@ -1,0 +1,6 @@
+{
+    "integrationFolder": "cypress/integration",
+    "videoUploadOnPasses": false,
+    "screenshotOnRunFailure": false,
+    "pageLoadTimeout": 30000
+}

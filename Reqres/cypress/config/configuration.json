@@ -1,0 +1,15 @@
+{
+  "integrationFolder": "cypress/integration",
+  "supportFile": "cypress/support/index.js",
+  "pluginsFile": "cypress/plugins/index.js",
+  "testFiles": "{*.feature,*.Feature}",
+  "chromeWebSecurity": false,
+  "video": false,
+  "defaultCommandTimeout": 60000,
+  "watchForFileChanges": false,
+  "screenshotOnRunFailure": true,
+  "retries": 2,
+  "env": {
+    "fixtureFile": "dataFile.json"
+  }
+}
